@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_New Contact</name>
+   <tag></tag>
+   <elementGuidId>d0e6890e-53e7-40a8-9624-bdf1de089583</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='id-c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b-3-primarycontactid270bd3db-d9af-4782-9025-509e298dec0a-primarycontactid.fieldControl-LookupResultsDropdown_primarycontactid_0_addNewBtn_0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>id-c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b-3-primarycontactid270bd3db-d9af-4782-9025-509e298dec0a-primarycontactid.fieldControl-LookupResultsDropdown_primarycontactid_0_addNewBtn_0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>primarycontactid.fieldControl-LookupResultsDropdown_primarycontactid_addNewBtn_0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pa-wi pa-wh pa-ao pa-dz pa-am pa-bu </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Contact</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;id-c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b-3-primarycontactid270bd3db-d9af-4782-9025-509e298dec0a-primarycontactid.fieldControl-LookupResultsDropdown_primarycontactid_0_addNewBtn_0&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='id-c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b-3-primarycontactid270bd3db-d9af-4782-9025-509e298dec0a-primarycontactid.fieldControl-LookupResultsDropdown_primarycontactid_0_addNewBtn_0']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='id-c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b-3-primarycontactid270bd3db-d9af-4782-9025-509e298dec0a-primarycontactid.fieldControl-LookupResultsDropdown_primarycontactid_0_addNewBtnContainer_0']/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rob Raences'])[1]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All records'])[1]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Advanced lookup'])[1]/preceding::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='New Contact']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'id-c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b-3-primarycontactid270bd3db-d9af-4782-9025-509e298dec0a-primarycontactid.fieldControl-LookupResultsDropdown_primarycontactid_0_addNewBtn_0' and (text() = 'New Contact' or . = 'New Contact')]</value>
+   </webElementXpaths>
+</WebElementEntity>
