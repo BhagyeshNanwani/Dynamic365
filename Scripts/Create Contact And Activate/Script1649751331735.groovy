@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://org32cb6c3c.crm8.dynamics.com/main.aspx?appid=7a81cf22-33b3-ec11-983f-000d3a0a84fb&forceUCI=1&pagetype=dashboard&id=eaa6e6bb-4712-ec11-b6e7-00224820f09b&type=system&_canOverride=true')
 
 WebUI.setText(findTestObject('Object Repository/Create Contact And Activate/Page_Sign in to your account/input_Sign in_loginfmt'), 

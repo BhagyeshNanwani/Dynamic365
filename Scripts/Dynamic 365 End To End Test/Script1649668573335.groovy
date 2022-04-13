@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://org32cb6c3c.crm8.dynamics.com/main.aspx?appid=7a81cf22-33b3-ec11-983f-000d3a0a84fb&forceUCI=1&pagetype=dashboard&id=eaa6e6bb-4712-ec11-b6e7-00224820f09b&type=system&_canOverride=true')
 
 WebUI.setText(findTestObject('Object Repository/Dynamic 365 End To End Test/Page_Sign in to your account/input_Sign in_loginfmt'), 
@@ -65,6 +67,12 @@ not_run: WebUI.setText(findTestObject('Object Repository/Dynamic 365 End To End 
 
 WebUI.clearText(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard - Dynamics 365/input_Account Name'))
 
+WebUI.sendKeys(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard - Dynamics 365/input_Account Name'), Keys.chord(
+        Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard - Dynamics 365/input_Account Name'), Keys.chord(
+        Keys.BACK_SPACE))
+
 WebUI.setText(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard - Dynamics 365/input_Account Name'), 'Katalon')
 
 WebUI.click(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard - Dynamics 365/li_Katalon9029134885Las Vegas'))
@@ -90,9 +98,8 @@ WebUI.setText(findTestObject('Object Repository/Dynamic 365 End To End Test/Page
 
 WebUI.clearText(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard -/input_Street 1_id-661157fe-2fc9-4eaa-835f-5_77c00c'))
 
-WebUI.setText(findTestObject('Object Repository/Dynamic 365 End To End Test/Page_Sales dashboard -/input_Street 1_id-661157fe-2fc9-4eaa-835f-5_77c00c'), 
-    'Las Vegas')
-
+//WebUI.setText(findTestObject('Object Repository/Dynamic 365 End To End Test/Page_Sales dashboard -/input_Street 1_id-661157fe-2fc9-4eaa-835f-5_77c00c'), 
+//    'Las Vegas')
 WebUI.clearText(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard -/input_Street 2_id-661157fe-2fc9-4eaa-835f-5_3bc72e'))
 
 WebUI.setText(findTestObject('Object Repository/Dynamic 365 End To End Test/Page_Sales dashboard -/input_Street 2_id-661157fe-2fc9-4eaa-835f-5_3bc72e'), 
@@ -110,7 +117,7 @@ WebUI.setText(findTestObject('Object Repository/Dynamic 365 End To End Test/Page
 
 WebUI.click(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard -/span_Save and Close'))
 
-WebUI.click(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard -/button_Ignore and save'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard -/button_Ignore and save'), FailureHandling.OPTIONAL)
 
 //not_run: if (WebUI.verifyElementPresent(findTestObject('Object Repository/Dynamic 365 End To End Test/Page_Sales dashboard -/button_Ignore and save'), 
 //    10)) {
@@ -154,10 +161,7 @@ WebUI.setText(findTestObject('Object Repository/Dynamic 365 End To End Test/Page
 
 WebUI.click(findTestObject('Object Repository/Dynamic 365 End To End Test/Page_Sales dashboard -/span_Save and Close_1'))
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Dynamic 365 End To End Test/Page_Sales dashboard -/button_Ignore and save'), 
-    10)) {
-    WebUI.click(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard -/button_Ignore and save'))
-}
+WebUI.click(findTestObject('Dynamic 365 End To End Test/Page_Sales dashboard -/button_Ignore and save'), FailureHandling.OPTIONAL)
 
 WebUI.delay(5)
 

@@ -17,8 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://org32cb6c3c.crm8.dynamics.com/main.aspx?appid=7a81cf22-33b3-ec11-983f-000d3a0a84fb&forceUCI=1&pagetype=dashboard&id=eaa6e6bb-4712-ec11-b6e7-00224820f09b&type=system&_canOverride=true')
 
@@ -40,11 +41,29 @@ WebUI.click(findTestObject('Object Repository/Create New Account/Page_Sales dash
 
 WebUI.click(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/img_Show Chart_pa-dt pa-du pa-ds pa-dv'))
 
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Account Name_id-c9e7ec2d-efca-4e4c-b3_3f4614'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Account Name_id-c9e7ec2d-efca-4e4c-b3_3f4614'), 
+    Keys.chord(Keys.BACK_SPACE))
+
 WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Account Name_id-c9e7ec2d-efca-4e4c-b3_3f4614'), 
     'Katalon')
 
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Main Phone_id-c9e7ec2d-efca-4e4c-b3e3_f27c06'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Main Phone_id-c9e7ec2d-efca-4e4c-b3e3_f27c06'), 
+    Keys.chord(Keys.BACK_SPACE))
+
 WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Main Phone_id-c9e7ec2d-efca-4e4c-b3e3_f27c06'), 
     '9029134885')
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Primary Contact_id-c9e7ec2d-efca-4e4c_fc2774'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Primary Contact_id-c9e7ec2d-efca-4e4c_fc2774'), 
+    Keys.chord(Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Primary Contact_id-c9e7ec2d-efca-4e4c_fc2774'), 
     'Alex')
@@ -54,23 +73,65 @@ WebUI.click(findTestObject('Object Repository/Create New Account/Page_Accounts M
 not_run: WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Primary Contact_id-c9e7ec2d-efca-4e4c_fc2774'), 
     'Alex')
 
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Annual Revenue_id-c9e7ec2d-efca-4e4c-_618e89'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Annual Revenue_id-c9e7ec2d-efca-4e4c-_618e89'), 
+    Keys.chord(Keys.BACK_SPACE))
+
 WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Annual Revenue_id-c9e7ec2d-efca-4e4c-_618e89'), 
     '3000000')
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Number of Employees_id-c9e7ec2d-efca-_60b27a'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Number of Employees_id-c9e7ec2d-efca-_60b27a'), 
+    Keys.chord(Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Number of Employees_id-c9e7ec2d-efca-_60b27a'), 
     '300')
 
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/textarea_A'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/textarea_A'), 
+    Keys.chord(Keys.BACK_SPACE))
+
 WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/textarea_A'), 
     'A very big opportunity')
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Street 1_id-c9e7ec2d-efca-4e4c-b3e3-f_691710'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Street 1_id-c9e7ec2d-efca-4e4c-b3e3-f_691710'), 
+    Keys.chord(Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Street 1_id-c9e7ec2d-efca-4e4c-b3e3-f_691710'), 
     'Las Vegas')
 
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Street 2_id-c9e7ec2d-efca-4e4c-b3e3-f_f807be'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Street 2_id-c9e7ec2d-efca-4e4c-b3e3-f_f807be'), 
+    Keys.chord(Keys.BACK_SPACE))
+
 WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_Street 2_id-c9e7ec2d-efca-4e4c-b3e3-f_f807be'), 
     'Las Vegas')
 
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_City_id-c9e7ec2d-efca-4e4c-b3e3-f63c4_2acf78'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_City_id-c9e7ec2d-efca-4e4c-b3e3-f63c4_2acf78'), 
+    Keys.chord(Keys.BACK_SPACE))
+
 WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_City_id-c9e7ec2d-efca-4e4c-b3e3-f63c4_2acf78'), 
     'Mumbai')
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_ZIPPostal Code_id-c9e7ec2d-efca-4e4c-_fab6d5'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_ZIPPostal Code_id-c9e7ec2d-efca-4e4c-_fab6d5'), 
+    Keys.chord(Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/input_ZIPPostal Code_id-c9e7ec2d-efca-4e4c-_fab6d5'), 
     '401102')
@@ -78,9 +139,11 @@ WebUI.setText(findTestObject('Object Repository/Create New Account/Page_Accounts
 WebUI.click(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/button_Save and Close'))
 
 WebUI.click(findTestObject('Object Repository/Create New Account/Page_Accounts My Active Accounts - Dynamics 365/button_Ignore and save'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    FailureHandling.OPTIONAL)
 
 WebUI.verifyTextPresent('Katalon', false)
+
+CustomKeywords.'LogOut.logout'()
 
 WebUI.closeBrowser()
 

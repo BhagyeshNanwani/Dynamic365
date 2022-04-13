@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A155A02371A53F1C3A1D88F62637CA84",
+  "keywordClasses": [
+    {
+      "name": "LogOut",
+      "keywordMethods": [
+        {
+          "name": "logout",
+          "parameters": [],
+          "javadoc": "/**\n\t * Refresh browser\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
